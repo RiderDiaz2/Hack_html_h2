@@ -1,0 +1,73 @@
+.root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+.body {
+    margin: 0; /* Elimina el margen predeterminado del body */
+    font-family: 'Inter', sans-serif; /* Usa la fuente Inter o una sans-serif genérica */
+}
+
+    /* Contenedor principal que centra el contenido */
+.container {
+    max-width: 960px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Relleno general alrededor del contenido */
+}
+
+    /* Estilos para la barra superior */ 
+.header-bar {
+    left: 0;
+    top: 20%;
+    transform: translate(-1%);
+    width: 100%;
+    height: 120px; /* Altura de la barra del encabezado */
+    background-color: #93B5C9; 
+    padding-left: 26px;
+    margin-bottom: -20px; /* Espacio debajo de la barra del encabezado (se mantiene distinto) */
+}
+
+    /* Estilos para la sección principal roja */
+.main-red-section {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 200px; /* Altura de la sección principal roja */
+    background-color: #bb2f4e; 
+    padding-right: 1587px;
+    padding-bottom: 50px;
+    margin-bottom: 20px; /* Espacio reducido para que esté más "unida" */
+    display: block; /* Asegura que sea un bloque */
+}
+
+.indented-sections-wrapper {
+    padding-left: 50px; 
+    padding-right: 0; 
+    margin-bottom: 10px; 
+}
+
+    /* Estilos para cada sección roja indentada */
+.indented-section {
+    width: 100%; /* Ocupa el 100% del ancho de su contenedor (indented-sections-wrapper) */
+    height: 70px; /* Altura de cada sección indentada */
+    background-color: #AB2849; 
+    padding:20px;
+    margin-left: -399px;
+    margin-bottom: 15px; /* Espacio entre las secciones indentadas */
+    display: block; /* Asegura que sea un bloque */
+}
+
+    /* Quita el margen inferior de la última sección indentada */
+.indented-section:last-child {
+    margin-bottom: 20px;
+}
+
+    /* Estilos para la sección roja inferior */
+.bottom-red-section {
+    width: 100%;
+    height: 120px; /* Altura de la sección inferior */
+    background-color: #AB2849; 
+    margin-top: 10px; /* Espacio reducido para que esté más "unida" */
+    display: block; /* Asegura que sea un bloque */
+}
