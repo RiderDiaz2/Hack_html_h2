@@ -11,7 +11,7 @@
 
      - se prohibe el uso de flex
 
-🔔 Diseñar un sitio igual a la imagen contenida en: hack_html_1/hack_1/hack_1.png 
+🔔 Diseñar un sitio igual a la imagen contenida en: hack_html_2/hack_2/hack_2.png 
 
 
 ## Repositorio:
